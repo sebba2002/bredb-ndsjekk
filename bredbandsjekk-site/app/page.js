@@ -223,7 +223,6 @@ export default function BredbandsjekkLanding() {
                             { label: "Fiber", value: "Fiber", icon: "⚡" },
                             { label: "Bredbånd", value: "Bredbånd", icon: "📶" },
                             { label: "Trådløst", value: "Trådløst", icon: "📡" },
-                            { label: "Usikker", value: "Usikker", icon: "🤔" },
                           ].map((type) => {
                             const active = form.connectionTypes.includes(type.value);
 
